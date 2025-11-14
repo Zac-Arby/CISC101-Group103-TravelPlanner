@@ -1,3 +1,6 @@
+> Change Log (2025-11-13): 
+   > – Added conditional to handle edge case of opening-hours mismatching with scheduled activity hours.
+
 Module 3 — Feasibility & Guardrails
 
 Apply these **if/else** checks to make sure plans are realistic and adapt to edge cases:
@@ -33,3 +36,7 @@ Apply these **if/else** checks to make sure plans are realistic and adapt to edg
 8. **Bookings**
    
    - If activity usually needs a ticket → just remind the user to book it; never simulate bookings.
+
+9. **Opening-Hour Mismanagment**
+
+   - If schedule activity time outside operating hours → change activity time or choose a different location.
