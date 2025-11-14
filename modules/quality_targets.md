@@ -1,1 +1,1 @@
-“Quality Targets (Internal)”.
+Quality Targets (Internal)
